@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    width: 100vw;
+    border: 1px solid red;
+    height: 60px;
+    display: flex;
+    >.right-nav{
+        display: flex;
+    }
+    >.left-nav{
+        display: flex;
+
+    }
+}
