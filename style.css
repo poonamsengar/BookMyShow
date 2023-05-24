@@ -5,14 +5,105 @@ body{
 }
 #nav{
     width: 100vw;
-    border: 1px solid red;
-    height: 60px;
+    height: 65px;
     display: flex;
+    position: relative;
+    background-color: rgba(15, 15, 15, 0.855);
     >.right-nav{
         display: flex;
+        width: 45%;
+        height: 60px;
+        margin-left: 80px;
+        color: white;
+        #search-input{
+            width: 100%;
+            height: 30px;
+            margin-top: 13px;
+            border-radius: 5px;
+            align-items: center;
+        }
     }
     >.left-nav{
+        width: auto;
         display: flex;
-
+        justify-content: space-around;
+        gap: 20px;
+        position:absolute;
+        right: 140px;
+        color:white;
+        
+        >p{
+            font-size: 15px;
+            text-align: center;
+            align-items: center;
+            margin-top: 23px;
+            cursor: pointer;
+        }
+        >p>i{
+            margin-left: 3px;
+            text-align: center;
+            align-items: center;
+        }
+        #btn{
+            background-color: rgb(251, 46, 46);
+            color: white;
+            width: 4.5vw;
+            height: 4vh;
+            border-radius: 5px;
+            margin-top: 16px;
+            cursor: pointer;
+            border: none;
+        }  
+        
     }
+    
 }
+
+
+.sidepanel {
+    height: 1000px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 13px 15px;
+    border: none;
+  }
+  
