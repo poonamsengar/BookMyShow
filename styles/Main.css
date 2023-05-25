@@ -1,0 +1,110 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+#container-card {
+  > div {
+    display: flex;
+    width: 82%;
+    margin: auto;
+    > h2 {
+      /* margin-left: 5.5em; */
+      font-size: 25px;
+      width: 82%;
+      color: rgba(0, 0, 0, 0.724);
+      position: relative;
+      top: 10px;
+    }
+    > button {
+      width: 6em;
+      height: 2.5em;
+      border: none;
+      background-color: white;
+      color: red;
+      margin-top: 30px;
+      margin-left: 11em;
+      cursor: pointer;
+      position: relative;
+      top: 10px;
+    }
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+    margin: auto;
+    > div > img {
+      width: 90%;
+      border-radius: 15px;
+      
+    }
+    > div > h3 {
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.749);
+        margin-left: 10px;
+        margin-top: 4px;
+
+    }
+    > div > p {
+      margin-top: -14px;
+      color: rgba(0, 0, 0, 0.707);
+      font-weight: 500;
+      font-size: 17px;
+      margin-left: 10px;
+
+    }
+  }
+}
+#container-card-2{
+    margin-top: 5em;
+    margin-bottom: 45px;
+    >img{
+        width: 81%;
+        margin-left: 8.5em;
+    }
+}
+
+#PREMIRE{
+    background-color: rgb(1, 48, 69);
+    color: white;
+    margin-top: 50px;
+    >img{
+        margin-left: 130px;
+    }
+    >h2{
+        margin-left: 132px;
+    }
+    >p{
+        margin-left: 132px;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 82%;
+        margin: auto;
+        > div > img {
+          width: 90%;
+          border-radius: 15px;
+        }
+        > div > h3 {
+          font-size: 19px;
+          color: rgba(0, 0, 0, 0.749);
+            margin-left: 10px;
+            margin-top: 4px;
+            color: white;
+        }
+        > div > p {
+          margin-top: -14px;
+          color: rgba(0, 0, 0, 0.707);
+          font-weight: 500;
+          font-size: 17px;
+          margin-left: 10px;
+            color: white;
+        }
+      }
+}
