@@ -171,20 +171,28 @@ body{
     height: 6vh;
     display: flex;
     background: rgb(34, 37, 57);
-    color: white;
+    color: rgba(255, 255, 255, 0.91);
 
     >.nav-2-data{
       display: flex;
+      font-size: 14px;
     }
     .left-side{
       position: relative;
-      left:9em;
+      left:10.5em;
       gap: 20px;
+      >p{
+        cursor: pointer;
+      }
     }
     .right-side{
       position: relative;
-      left:39em;
+      left:47.3em;
       gap: 20px;
+      >p{
+        cursor: pointer;
       }
+      }
+      
   }
   
