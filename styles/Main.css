@@ -1,7 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: whitesmoke;
-
 }
 #main {
   width: 100%;
@@ -46,15 +45,19 @@ body {
       width: 20%;
       border-radius: 15px;
     }
-    >div>img{
+    > div > img {
       width: 80%;
       border-radius: 15px;
+      display: flex;
+      flex-wrap: wrap;
     }
     > div > h3 {
       font-size: 20px;
       color: rgba(0, 0, 0, 0.749);
       margin-left: 10px;
       margin-top: 4px;
+      display: flex;
+      flex-wrap: wrap;
     }
     > div > p {
       margin-top: -14px;
@@ -62,17 +65,23 @@ body {
       font-weight: 500;
       font-size: 17px;
       margin-left: 10px;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }
 #container-card-2 {
   margin-top: 5em;
   margin-bottom: 45px;
+  width: 78%;
+  margin-left: 8.5em;
   display: flex;
   flex-wrap: wrap;
   > img {
-    width: 81%;
-    margin-left: 8.5em;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -80,14 +89,21 @@ body {
   background-color: rgb(1, 48, 69);
   color: white;
   margin-top: 50px;
+  overflow: hidden;
   > img {
     margin-left: 130px;
+    display: flex;
+    flex-wrap: wrap;
   }
   > h2 {
     margin-left: 132px;
+    display: flex;
+    flex-wrap: wrap;
   }
   > p {
     margin-left: 132px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .card {
     display: flex;
@@ -115,10 +131,12 @@ body {
     }
   }
 }
- .h2 {
+.h2 {
   margin-left: 140px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.707);
+  display: flex;
+  flex-wrap: wrap;
 }
 #trending {
   display: flex;
@@ -130,25 +148,92 @@ body {
   line-height: 0.5;
   margin-top: 20px;
 
-  >div{
+  > div {
     background-color: white;
     padding: 30px 25px 20px;
     height: 30px;
-    >h3{
+    > h3 {
       margin-top: -11px;
       position: relative;
       right: 10px;
-      font-size:15px ;
+      font-size: 15px;
       color: rgba(255, 0, 0, 0.724);
-
     }
-    >p{
+    > p {
       position: relative;
       right: 10px;
-      font-size:15px ;
+      font-size: 15px;
       color: gray;
       font-weight: 500;
-
     }
   }
+}
+.home {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 14px;
+  font-weight: 400;
+  > span {
+    margin-left: 11em;
+    line-height: 3em;
+  }
+}
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+.logo-footer {
+  width: 140px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+#icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 100px;
+  margin: auto;
+  margin-top: 100px;
+
+  > p {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: rgb(122, 121, 121);
+    > i {
+      font-size: 20px;
+      color: white;
+      line-height: 40px;
+      text-align: center;
+      margin-left: 11px;
+    }
+  }
+  > p:hover {
+    background-color: white;
+    cursor: pointer;
+    > i {
+      color: black;
+    }
+  }
+}
+
+.inside-bottom-1 {
+  text-align: center;
+  color: rgb(161, 158, 158);
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  margin-top: -40px;
+}
+.inside-bottom-2 {
+  text-align: center;
+  color: rgb(161, 158, 158);
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
 }
