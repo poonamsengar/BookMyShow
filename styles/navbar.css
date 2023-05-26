@@ -5,7 +5,7 @@ body {
 }
 #nav-1 {
   width: 100vw;
-  height: 65px;
+  height: 58px;
   display: flex;
   position: relative;
   background-color: rgba(0, 7, 33, 0.772);
@@ -26,7 +26,6 @@ body {
       margin-left: 20px;
       display: flex;
       flex-wrap: wrap;
-
     }
     #search > button {
       height: 33px;
@@ -57,7 +56,7 @@ body {
     color: white;
 
     > p {
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
       align-items: center;
       margin-top: 23px;
@@ -68,7 +67,7 @@ body {
       margin-left: 3px;
       text-align: center;
       align-items: center;
-      font-size: 13px;
+      font-size: 9px;
     }
     #btn {
       background-color: rgb(251, 46, 46);
@@ -76,7 +75,7 @@ body {
       width: 4.5vw;
       height: 4vh;
       border-radius: 5px;
-      margin-top: 16px;
+      margin-top: 17px;
       cursor: pointer;
       border: none;
     }
@@ -186,16 +185,26 @@ body {
     position: relative;
     left: 10.5em;
     gap: 20px;
-    > p {
+    font-size: 13px;
+    >p{
+      color: rgb(212, 212, 212);
+    }
+    > p:hover {
       cursor: pointer;
+      color: white;
     }
   }
   .right-side {
     position: relative;
-    left: 47.3em;
+    left: 43em;
     gap: 20px;
-    > p {
+    font-size: 13px;
+    >p{
+      color: rgb(212, 212, 212);
+    }
+    > p:hover {
       cursor: pointer;
+      color: white;
     }
   }
 }
