@@ -233,8 +233,6 @@ body {
   margin: auto;
   font-size: 13px;
   margin-top: -40px;
-  display: flex;
-  flex-wrap: wrap;
 }
 .inside-bottom-2 {
   text-align: center;
