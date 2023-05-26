@@ -29,8 +29,6 @@ body {
 
     }
     #search > button {
-      display: flex;
-      flex-wrap: wrap;
       height: 33px;
       width: 45px;
       border: none;
@@ -40,8 +38,6 @@ body {
       border-bottom-left-radius: 5px;
     }
     #search-input {
-      display: flex;
-      flex-wrap: wrap;
       border: none;
       width: 29vw;
       height: 31px;
@@ -66,7 +62,7 @@ body {
       align-items: center;
       margin-top: 23px;
       cursor: pointer;
-      
+
     }
     > p > i {
       margin-left: 3px;
