@@ -222,7 +222,7 @@ body {
   }
   .right-side {
     position: relative;
-    left: 54em;
+    left: 44em;
     gap: 20px;
     font-size: 13px;
     >p{
