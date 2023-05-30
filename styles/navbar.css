@@ -1,95 +1,91 @@
-body {
-  margin: 0px;
-  padding: 0px;
+*{
+  font-family: 'Poppins' , sans-serif;
+  margin: 0;padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .3s linear;
 }
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+body{
+  background-color: #eee;
+}
+
 #nav-1 {
-  width: 100vw;
-  height: 58px;
+  width: 155rem;
+  height: 7rem;
   display: flex;
   position: relative;
   background-color: rgba(0, 7, 33, 0.772);
   > .right-nav {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45%;
-    height: 60px;
-    margin-left: 150px;
-    color: white;
+    width: 13rem;
+    height: 6rem;
+    margin-left: 9rem;
     > svg {
-      margin-top: 15px;
+      margin-top: 2rem;
     }
     #search {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-left: 20px;
-      display: flex;
-      flex-wrap: wrap;
+      /* display: flex; */
+      margin-left: 18rem;
+      margin-top: -4rem;
+
     }
-    #search > button {
-      height: 33px;
-      width: 45px;
-      border: none;
-      background-color: white;
-      color: rgb(129, 128, 128);
-      border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px;
-    }
+    
     #search-input {
       border: none;
-      width: 29vw;
-      height: 31px;
+      width: 46rem;
+      height: 3.7rem;
+      margin-left: -2rem;
       outline: none;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
+      border-radius: 1rem;
+
     }
   }
   > .left-nav {
-    width: auto;
+    width: 22rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
     position: absolute;
-    right: 140px;
+    right: 13rem;
     color: white;
 
     > p {
-      font-size: 12px;
+      font-size:1.5rem;
       text-align: center;
       align-items: center;
-      margin-top: 23px;
+      margin-top: 2.4rem;
       cursor: pointer;
-
     }
     > p > i {
-      margin-left: 3px;
       text-align: center;
       align-items: center;
-      font-size: 9px;
-    }
-    >a{
-      text-decoration: none;
-      font-size: 13px;
-      text-align: center;
-      line-height: 23px;
+      font-size: .7rem;
+      margin-top: -4rem;
     }
     #btn {
       background-color: rgb(251, 46, 46);
       color: white;
-      width: 4.5vw;
-      height: 4vh;
-      border-radius: 5px;
-      margin-top: 17px;
+      width: 5.6rem;
+      height: 2.8rem;
+      margin-left: 1.2rem;
+      border-radius: .3rem;
+      margin-top: 2rem;
       cursor: pointer;
       border: none;
-      
     }
   }
 }
 .sidepanel {
-  height: 1000px; /* Specify a height */
+  height: 100rem; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -105,17 +101,17 @@ body {
 
 /* The sidepanel links */
 .sidepanel a {
-  padding: 8px 8px 8px 32px;
+  padding: 8rem 8rem 8rem -10rem;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2rem;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
 #acore>a {
-  padding: 8px 8px 8px 32px;
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1.2rem;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -126,9 +122,8 @@ body {
   background-color: rgb(234, 234, 234);
 }
 #acore>a>i {
-  padding: 10px;
-  margin-left: -30px;
-  gap: 20px;
+  padding: 1.5rem;
+  margin-left: 0.5rem;
   color: #818181;
 }
 
@@ -143,22 +138,22 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(46, 49, 71);
-  height: 63px;
-  margin-top: -60px;
+  height: 4rem;
+  margin-top: -6rem;
   > span {
     position: relative;
-    left: 25px;
-    font-size: 25px;
+    left: 2rem;
+    font-size: 2rem;
   }
   .closebtn {
     position: relative;
-    right: 30px;
+    right: 3rem;
   }
 }
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-  font-size: 25px;
+  font-size: 3rem;
   cursor: pointer;
   background-color: transparent;
   color: white;
@@ -172,24 +167,26 @@ body {
   display: flex;
   background-color: white;
   color: black;
-  height: 60px;
+  height: 6rem;
+
   > div > img {
-    width: 55%;
-    margin-top: 9px;
-    margin-left: 15px;
+    width: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 1.6rem;
   }
   > div > p {
-    width: 160px;
-    margin-top: 12px;
+    width: 18rem;
+    margin-left: 1.7rem;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(65, 65, 65);
   }
   > div > button {
     border: 1px solid red;
-    height: 35px;
-    width: 7vw;
-    border-radius: 5px;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 1rem;
     margin-top: 12px;
-    margin-left: 10px;
     background-color: white;
     color: red;
     font-size: 12px;
@@ -197,23 +194,24 @@ body {
 }
 
 #nav-2 {
-  width: 100%;
-  height: 6vh;
+  width: 155rem;
+  height: 4rem;
   display: flex;
   background: rgb(34, 37, 57);
   color: rgba(255, 255, 255, 0.91);
 
   > .nav-2-data {
     display: flex;
-    font-size: 14px;
+
   }
   .left-side {
     position: relative;
-    left: 10.5em;
-    gap: 20px;
-    font-size: 13px;
+    left: 6.7em;
+    gap: 1rem;
+    font-size: 1.3rem;
     >p{
       color: rgb(212, 212, 212);
+      margin-top: 1rem
     }
     > p:hover {
       cursor: pointer;
@@ -222,11 +220,13 @@ body {
   }
   .right-side {
     position: relative;
-    left: 44em;
-    gap: 20px;
-    font-size: 13px;
+    left: 80rem;
+    gap: 1rem;
+    font-size: 1.3rem;
+    /* font-size: ; */
     >p{
       color: rgb(212, 212, 212);
+      margin-top: 1rem
     }
     > p:hover {
       cursor: pointer;

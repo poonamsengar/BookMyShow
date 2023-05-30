@@ -1,223 +1,230 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: whitesmoke;
+*{
+  font-family: 'Poppins' , sans-serif;
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .3s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+body{
+  background-color: #eee;
 }
 #main {
-  width: 100%;
+  width: 155rem;
   align-items: center;
   text-align: center;
-  margin-top: 15px;
 }
 #container-card {
-  width: 80%;
+  width: 155rem;
+  margin-top: -40rem;
   margin: auto;
+  margin-top: 3rem;
   > div {
     display: flex;
-    width: 100%;
-    margin: auto;
+    margin-left: 14rem;
     > h2 {
-      font-size: 25px;
-      width: 82%;
+      font-size: 2rem;
+      width: 82rem;
+      margin-left: 2rem;
       color: rgba(0, 0, 0, 0.724);
-      position: relative;
-      top: 10px;
     }
     > #button {
-      width: 4em;
-      height: 1.5em;
+      width: 6.1rem;
+      height: 1.6rem;
       border: none;
-      font-size: 14px;
+      font-size: 1.5rem;
       color: rgb(248, 105, 105);
       background-color: whitesmoke;
-      margin-top: 30px;
-      margin-left: 9em;
+      margin-top: 1rem;
+      margin-left: 35rem;
       font-weight: 500;
       cursor: pointer;
-      position: relative;
-      top: 10px;
       text-decoration: none;
     }
   }
   .card {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
     > div {
-      width: 20%;
-      border-radius: 15px;
+      margin-left: 1.5rem;
+      border-radius:2rem ;
+      margin-top: 2rem;
     }
     > div > img {
-      width: 80%;
-      border-radius: 15px;
-      display: flex;
-      flex-wrap: wrap;
+      width: 23.5rem;
+      height: 30rem;
+      border-radius:2rem ;
     }
     > div > h3 {
-      font-size: 20px;
-      color: rgba(0, 0, 0, 0.749);
-      margin-left: 10px;
-      margin-top: 4px;
-      display: flex;
-      flex-wrap: wrap;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 2rem
     }
     > div > p {
-      margin-top: -14px;
-      color: rgba(0, 0, 0, 0.707);
-      font-weight: 500;
-      font-size: 17px;
-      margin-left: 10px;
-      display: flex;
-      flex-wrap: wrap;
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 1.1rem;
     }
   }
 }
 #container-card-2 {
-  margin-top: 5em;
-  margin-bottom: 45px;
-  width: 78%;
-  margin-left: 8.5em;
+  margin-top: 5rem;
+  width: 135rem;
+  /* height: 2rem; */
+  margin-left: 9rem;
   display: flex;
   flex-wrap: wrap;
   > img {
     width: 100%;
-
-    display: flex;
-    flex-wrap: wrap;
   }
 }
 
 #PREMIRE {
   background-color: rgb(1, 48, 69);
   color: white;
-  margin-top: 50px;
-  overflow: hidden;
+  margin-top: 5rem;
+  height: 55rem;
+  /* overflow: hidden; */
   > img {
-    margin-left: 130px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 120rem;
+    margin-left: 18rem;
   }
   > h2 {
-    margin-left: 132px;
+    margin-left: 19rem;
     display: flex;
     flex-wrap: wrap;
+    font-size: 2rem;
+
   }
   > p {
-    margin-left: 132px;
+    margin-left: 19rem;
     display: flex;
+    margin-top: 1rem;
     flex-wrap: wrap;
   }
   .card {
     display: flex;
-    flex-direction: row;
-    width: 82%;
     margin: auto;
+    height: 60rem;
+    margin-top: 2rem;
+    margin-left: 14rem;
+
+    >div{
+      width: 83rem;
+    }
     > div > img {
-      width: 90%;
+      width: 22rem;
       border-radius: 15px;
+      margin-left: 2rem;
     }
     > div > h3 {
-      font-size: 19px;
+      font-size: 2rem;
       color: rgba(0, 0, 0, 0.749);
-      margin-left: 10px;
+      margin-left: 5rem;
       margin-top: 4px;
       color: white;
     }
     > div > p {
-      margin-top: -14px;
       color: rgba(0, 0, 0, 0.707);
       font-weight: 500;
-      font-size: 17px;
-      margin-left: 10px;
+      font-size: 1.5rem;
+      margin-left: 7rem;
       color: white;
     }
   }
 }
 .h2 {
-  margin-left: 140px;
-  margin-top: 10px;
+  margin-left: 14rem;
+  margin-top: 2rem;
   color: rgba(0, 0, 0, 0.707);
   display: flex;
   flex-wrap: wrap;
 }
 #trending {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   flex-wrap: wrap;
-  width: 80%;
+  width: 125rem;
   height: auto;
   margin: auto;
   line-height: 0.5;
-  margin-top: 20px;
-
+  margin-top: 2rem;
   > div {
-    background-color: white;
-    padding: 30px 25px 20px;
-    height: 30px;
+      background-color: white;
+      padding: 3rem 2rem 2rem;
+      height: 6rem;
     > h3 {
-      margin-top: -11px;
+      margin-top: -1.4rem;
       position: relative;
-      right: 10px;
-      font-size: 15px;
+      right: 1rem;
+      font-size: 1.5rem;
       color: rgba(255, 0, 0, 0.724);
     }
     > p {
       position: relative;
-      right: 10px;
-      font-size: 15px;
+      right: 1rem;
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
       color: gray;
       font-weight: 500;
     }
   }
 }
 .home {
-  width: 100%;
-  height: 45px;
+  width: 155rem;
+  height: 4rem;
   background-color: white;
   color: rgba(0, 0, 0, 0.66);
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 400;
+  margin-top: 3rem;
   > span {
-    margin-left: 11em;
-    line-height: 3em;
+    margin-left: 15rem;
+    line-height: 4rem;
   }
 }
 #footer {
-  width: 100%;
-  height: 300px;
+  width: 155rem;
+  height: 30rem;
   background-color: rgba(0, 0, 0, 0.66);
-  
+  margin-top: 2rem;
+
 }
 .logo-footer {
-  width: 140px;
+  width: 14rem;
   margin: auto;
   position: relative;
-  top: 100px;
+  top: 10rem;
 }
 #icon {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
-  width: 27%;
-  height: 100px;
+  width: 40rem;
+  height: 10rem;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 10rem;
   > p {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50rem;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 1.5rem;
     background-color: rgb(122, 121, 121);
     > i {
-      font-size: 20px;
+      font-size: 2rem;
       color: white;
-      line-height: 40px;
+      line-height: 4rem;
       text-align: center;
-      margin-left: 11px;
-      display: flex;
+      margin-left: .9rem;
       flex-wrap: wrap;
-      
     }
   }
   > p:hover {
@@ -243,4 +250,23 @@ body {
   width: 90%;
   margin: auto;
   font-size: 13px;
+}
+
+.slideBtn{
+  height: 20px;
+  width: 35px;
+  padding: 10px;
+  background-color: rgba(48, 45, 45, 0.292);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px; 
+  border-radius: 50px; 
+  
+}
+.slideBtn:hover{
+  cursor: pointer;
+  background-color: rgba(48, 45, 45, 0.128);
 }
