@@ -23,130 +23,100 @@ body{
   align-items: center;
   text-align: center;
 }
-#container-card {
-  width: 155rem;
-  margin-top: -40rem;
+#container-card .title{
+  display: flex;
+  justify-content: space-between;
+  width: 126rem;
   margin: auto;
-  margin-top: 3rem;
-  > div {
-    display: flex;
-    margin-left: 14rem;
-    > h2 {
-      font-size: 2rem;
-      width: 82rem;
-      margin-left: 2rem;
-      color: rgba(0, 0, 0, 0.724);
-    }
-    > #button {
-      width: 6.1rem;
-      height: 1.6rem;
-      border: none;
-      font-size: 1.5rem;
-      color: rgb(248, 105, 105);
-      background-color: whitesmoke;
-      margin-top: 1rem;
-      margin-left: 35rem;
-      font-weight: 500;
-      cursor: pointer;
-      text-decoration: none;
-    }
-  }
-  .card {
-    > div {
-      margin-left: 1.5rem;
-      border-radius:2rem ;
-      margin-top: 2rem;
-    }
-    > div > img {
-      width: 23.5rem;
-      height: 30rem;
-      border-radius:2rem ;
-    }
-    > div > h3 {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 2rem
-    }
-    > div > p {
-      text-align: center;
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-  }
-}
-#container-card-2 {
-  margin-top: 5rem;
-  width: 135rem;
-  /* height: 2rem; */
-  margin-left: 9rem;
-  display: flex;
-  flex-wrap: wrap;
-  > img {
-    width: 100%;
-  }
+  padding: 2rem;
 }
 
-#PREMIRE {
-  background-color: rgb(1, 48, 69);
+#container-card .card{
+  display: flex;
+  justify-content: space-between;
+  width: 124rem;
+  margin: auto;
+}
+#container-card .card img{ 
+  border: 5px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25rem;
+  height: 30rem;
+  gap: 5rem;
+}
+#container-card .card h3{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+#container-card .card p{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+}
+
+#container-card-2{
+  width: 155rem;
+  align-items: center;
+  text-align: center;
+}
+
+#PREMIRE{
+  margin-top: 5rem;
+  background-color: rgb(45, 45, 71);
+  width: 160rem;
+  height:  55rem;
+
+}
+#PREMIRE .insideimg{
+  margin-left: 16rem;
+
+}
+
+#PREMIRE h2{
+  margin-left: 16rem;
   color: white;
-  margin-top: 5rem;
-  height: 55rem;
-  /* overflow: hidden; */
-  > img {
-    width: 120rem;
-    margin-left: 18rem;
-  }
-  > h2 {
-    margin-left: 19rem;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2rem;
+  font-size: 2rem;
 
-  }
-  > p {
-    margin-left: 19rem;
-    display: flex;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-  }
-  .card {
-    display: flex;
-    margin: auto;
-    height: 60rem;
-    margin-top: 2rem;
-    margin-left: 14rem;
-
-    >div{
-      width: 83rem;
-    }
-    > div > img {
-      width: 22rem;
-      border-radius: 15px;
-      margin-left: 2rem;
-    }
-    > div > h3 {
-      font-size: 2rem;
-      color: rgba(0, 0, 0, 0.749);
-      margin-left: 5rem;
-      margin-top: 4px;
-      color: white;
-    }
-    > div > p {
-      color: rgba(0, 0, 0, 0.707);
-      font-weight: 500;
-      font-size: 1.5rem;
-      margin-left: 7rem;
-      color: white;
-    }
-  }
 }
-.h2 {
-  margin-left: 14rem;
-  margin-top: 2rem;
-  color: rgba(0, 0, 0, 0.707);
+#PREMIRE p{
+  margin-left: 16rem;
+  color: white;
+  font-size: 1.5rem;
+}
+#PREMIRE .card{
+  display: flex;
+  justify-content: space-between;
+  width: 125rem;
+  margin: auto;
+}
+
+#PREMIRE .card img{
+  border: 5px solid white;
   display: flex;
   flex-wrap: wrap;
+  width: 25rem;
+  height: 30rem;
+  gap: 5rem;
 }
+#PREMIRE .card h3{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: white;
+}
+#PREMIRE .card p{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  text-align: center;
+  margin-left: -4rem;
+}
+
+
+
 #trending {
   display: flex;
   gap: 2rem;
@@ -176,6 +146,13 @@ body{
       font-weight: 500;
     }
   }
+}
+.h2{
+  display: flex;
+  justify-content: space-between;
+  width: 126rem;
+  margin: auto;
+  padding: 2rem;
 }
 .home {
   width: 155rem;
@@ -253,20 +230,25 @@ body{
 }
 
 .slideBtn{
-  height: 20px;
-  width: 35px;
-  padding: 10px;
-  background-color: rgba(48, 45, 45, 0.292);
-  color: white;
+  position: absolute;
+  height: 5rem;
+  padding: 2rem;
+  background-color:rgba(106, 105, 105, 0.887);
+  color :white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 30px; 
+  font-size: 20px; 
   border-radius: 50px; 
-  
+  margin-top: -5rem;
 }
 .slideBtn:hover{
   cursor: pointer;
   background-color: rgba(48, 45, 45, 0.128);
+}
+.sliderParent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
