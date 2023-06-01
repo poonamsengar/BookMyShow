@@ -1,9 +1,9 @@
 #favDialog {
-    width: 60rem;
+    width: 55rem;
     height: 40rem;
     display: flex;
-    margin-top: 5rem;
-    margin: auto;
+    margin-top: -45rem;
+    margin-left: 55rem;
     background-color: rgba(255, 255, 255, 0.945);
     justify-content: center;
     align-items: center;
